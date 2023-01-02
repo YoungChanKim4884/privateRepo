@@ -2,14 +2,14 @@ package ch01;
 
 import java.util.Scanner;
 
-public class ch03_7 {
+public class ch01_3 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		String A = sc.next();
+		int A = sc.nextInt();
+		int B = sc.nextInt();
 		
-		System.out.println(A + "??!");
-
+		System.out.println(A - B);
 	}
 }

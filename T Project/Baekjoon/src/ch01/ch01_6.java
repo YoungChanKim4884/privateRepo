@@ -2,7 +2,7 @@ package ch01;
 
 import java.util.Scanner;
 
-public class ch03_4 {
+public class ch01_6 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -10,6 +10,10 @@ public class ch03_4 {
 		int A = sc.nextInt();
 		int B = sc.nextInt();
 		
+		System.out.println(A + B);
+		System.out.println(A - B);
 		System.out.println(A * B);
+		System.out.println(A / B);
+		System.out.println(A % B);
 	}
 }
