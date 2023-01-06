@@ -1,10 +1,7 @@
-import java.util.Arrays;
+package programmers.ch01;
 
-public class test {
-
-	public static void main(String[] args) {
-		String s = "pPoooyY";
-		
+public class ch01_7 {
+    boolean solution(String s) {
 		boolean answer = true;
         
         String S = s.toUpperCase();
@@ -16,8 +13,7 @@ public class test {
         for(int i=0; i<=S1.length-1; i++){
             if(S1[i].equals("P")){
                 P++;
-            }
-            if(S1[i].equals("Y")){
+            }else if(S1[i].equals("Y")){
                 Y++;
             }
         }
@@ -29,7 +25,6 @@ public class test {
         // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
         System.out.println(answer);
 
-//        return answer;
-	}
-
+        return answer;
+    }
 }
