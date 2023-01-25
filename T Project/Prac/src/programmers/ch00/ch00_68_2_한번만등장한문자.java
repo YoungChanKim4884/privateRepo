@@ -7,7 +7,6 @@ public class ch00_68_2_한번만등장한문자 {
         String answer = "";
         String[] str = s.split("");
         Arrays.sort(str);
-        int cnt = 0;
         for(int i=0; i<str.length; i++){
             if(i>0){
                 if(str[i].equals(str[i-1])){
