@@ -1,10 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
+<!-- JSP 기술의 한 종류인 [Include Direcctive]를 이용하여 -->
+<!-- common.jsp 파일 소스 삽입 -->
+<%@ include file="common.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>developer_search_form</title>
+<title>developer_updel_form</title>
 </head>
 <body>
 <table border="1" align="center" style="width: 80%; border-collapse: collapse;">
@@ -99,7 +103,7 @@
 	<tr align="center">
 		<td>
 			<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;등록&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<input type="button" value="&nbsp;초기화&nbsp;">
+			<input type="button" value="&nbsp;초기화&nbsp;" onclick="reset()">
 		</td>
 	</tr>
 </body>
