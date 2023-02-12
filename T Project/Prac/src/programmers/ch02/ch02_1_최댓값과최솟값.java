@@ -1,0 +1,23 @@
+package programmers.ch02;
+
+public class ch02_1_최댓값과최솟값 {
+    public String solution(String s) {
+        String[] strArr = s.split(" ");
+        int[] intArr = new int[strArr.length];
+        for(int i=0; i<intArr.length; i++){
+            intArr[i] = Integer.parseInt(strArr[i]);
+        }
+        int min = intArr[0];
+        int max = intArr[0];
+        for(int i=1; i<intArr.length; i++){
+            if(intArr[i]<min){
+                min = intArr[i];
+            }
+            if(intArr[i]>max){
+                max = intArr[i];
+            }
+        }
+        String answer = min + " " + max;
+        return answer;
+    }
+}
