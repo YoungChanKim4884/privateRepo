@@ -23,4 +23,5 @@ public class exercise4_3 {
 	}
 }
 
+// 실행결과
 // sum = 605

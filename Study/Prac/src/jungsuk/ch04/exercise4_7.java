@@ -13,4 +13,5 @@ public class exercise4_7 {
 	}
 }
 
+// 실행결과
 // value : 1

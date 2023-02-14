@@ -25,6 +25,7 @@ public class exercise4_5 {
 	}
 }
 
+// 실행결과
 // *
 // **
 // ***

@@ -19,5 +19,6 @@ public class exercise4_4 {
 	}
 }
 
+// 실행결과
 // num = 199
 // sum = 100
