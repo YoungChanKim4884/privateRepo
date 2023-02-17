@@ -6,7 +6,7 @@ package jungsuk.ch05;
 public class exercise5_5 {
 	public static void main(String[] args) {
 		
-		int[] ballArr = {1,2,3,4,5,6,7,8,9};
+		int[] ballArr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 		int[] ball3 = new int[3];
 		
 		// 배열 ballArr의 임의의 요소를 골라서 위치를 바꾼다.
